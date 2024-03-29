@@ -1,0 +1,16 @@
+{
+  "name": "ecommerce-search-input-focus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chrome": "^0.0.263",
+    "typescript": "^5.4.3"
+  }
+}
