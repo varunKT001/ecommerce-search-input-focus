@@ -9,3 +9,5 @@ This feature is inspired by similar functionality on YouTube, where pressing / m
 ## 🤨 Why I made this?
 
 I've accustomed to using the `/` key to quickly jump to the search bar on YouTube. It's a habit that speeds up my browsing significantly. So, naturally, when I switch over to e-commerce sites like Amazon and Flipkart, I find myself pressing `/` out of muscle memory, expecting the search field to become active. The realization that this shortcut doesn't work on these platforms means I have to manually move my cursor to the search bar and click it, which feels inconvenient and slows me down. This inspired me to create a solution.
+
+*(Not available on the Chrome Web Store because I don't have money to register a Google Developer account 🥲)*
