@@ -5,7 +5,7 @@ const selectors = {
   },
   flipkart: {
     hostname: 'flipkart.com',
-    searchInputSelectors: [`.Pke_EE[name="q"]`, `._3704LK[name="q"]`],
+    searchInputSelectors: [`input.Pke_EE[name="q"]`, `input._3704LK[name="q"]`],
   },
 };
 
@@ -14,7 +14,7 @@ document.addEventListener('keypress', (event) => {
     event.preventDefault();
 
     const hostname = window.location.hostname;
-    let searchInputSelectors = [];
+    let searchInputSelectors: string[] = [];
 
     if (hostname.includes('amazon.in')) {
       searchInputSelectors = selectors.amazon.searchInputSelectors;
@@ -23,7 +23,7 @@ document.addEventListener('keypress', (event) => {
     }
 
     const inputs: HTMLInputElement[] = Array.from(
-      selectors.amazon.searchInputSelectors,
+      searchInputSelectors,
       (selector) => {
         return document.querySelector(selector);
       }
