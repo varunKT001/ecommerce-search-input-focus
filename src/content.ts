@@ -5,7 +5,7 @@ const selectors = {
   },
   flipkart: {
     hostname: 'flipkart.com',
-    searchInputSelectors: [`input.Pke_EE[name="q"]`, `input._3704LK[name="q"]`],
+    searchInputSelectors: [`input.Pke_EE[name="q"]`, `input.zDPmFV[name="q"]`],
   },
 };
 
